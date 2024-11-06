@@ -44,7 +44,7 @@ if __name__ == '__main__':
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     # Load the pre-trained model (from Task 7)
-    model_path = 'lab8/best_model_nll.pth'  # Update with the correct model path
+    model_path = '/home/pi/ee347/lab-8-pytorch-and-deep-learning-2-group-1/lab8/best_model_nll.pth'  # Update with the correct model path
     try:
         model = load_model(model_path, device)
     except Exception as e:
