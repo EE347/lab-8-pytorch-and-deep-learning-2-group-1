@@ -36,8 +36,8 @@ if __name__ == '__main__':
     train_losses = []
     test_losses = []
 
-    # Epoch Loop
-    for epoch in range(1, 100):
+    # Epoch Loop - from 100 to 3
+    for epoch in range(1, 3):
 
         # Start timer
         t = time.time_ns()

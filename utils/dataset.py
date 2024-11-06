@@ -9,7 +9,6 @@ from tqdm import tqdm
 class TeamMateDataset(Dataset):
 
     def __init__(self, n_images=50, train=True):
-
         if train:
             dataset_type = 'train'
         else:
